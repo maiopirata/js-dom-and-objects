@@ -1,0 +1,54 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1000px;
+}
+
+.title {
+    font-size: 40px;
+    color: #333;
+}
+
+.quote {
+    font-size: 28px;
+    color: #666;
+    margin: 1em 0 1.5em;
+}
+
+.skill-list {
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.list-item {
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+.button {
+    background-color: purple;
+    color: white;
+    font-size: 22px;
+    padding: .5em 1.5em;
+    margin-top: 1.5em;
+    border-radius: 8px;
+    border: 1px solid plum;
+}
+
+.button:hover {
+    cursor: pointer;
+}
