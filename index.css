@@ -52,3 +52,10 @@ body {
 .button:hover {
     cursor: pointer;
 }
+
+.cohort-list {
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
